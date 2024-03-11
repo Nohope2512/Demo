@@ -7,6 +7,8 @@ public class PrimaryController {
 
     @FXML
     private void switchToSecondary() throws IOException {
+        int a;
+        int b;
         App.setRoot("secondary");
     }
 }
